@@ -1,14 +1,11 @@
-import styled from 'styled-components'
-
-const Title = styled.h1 `
-  color: olive;
-  font-size: 64px;
-`
+import { Header } from "./components/Header";
+import { GlobalStyle } from "./styles/global";
 
 export function App() {
   return (
-    <div className="App">
-      <Title>Jeová Jiré</Title>
-    </div>
+    <>
+      <Header/>
+      <GlobalStyle />
+    </>
   );
 }
