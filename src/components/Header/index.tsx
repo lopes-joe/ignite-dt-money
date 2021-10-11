@@ -1,5 +1,6 @@
-import logoImg from '../../assets/logo.svg'
-import { Container, Content } from './styles'
+import { useContext } from 'react';
+import logoImg from '../../assets/logo.svg';
+import { Container, Content } from './styles';
 
 interface HeaderProps {
     onOpenNewTransactionModal : ()=> void
