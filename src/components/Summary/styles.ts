@@ -29,6 +29,10 @@ export const Container = styled.div`
             background: var(--green);
             color: #fff;
         }
+        &.red-background{
+            background: var(--red);
+            color: #fff;
+        }
 
         
     }
